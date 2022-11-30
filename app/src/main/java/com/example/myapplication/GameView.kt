@@ -111,9 +111,7 @@ class GameView (var c :Context,var gameTask: GameTask):View(c) {
                 }
                 invalidate()
             }
-            MotionEvent.ACTION_UP->{
-
-            }
+            MotionEvent.ACTION_UP->{}
         }
         return true
     }
